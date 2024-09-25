@@ -2,10 +2,10 @@ export default function Banner() {
   return (
     <div class="carousel w-full">
         <div id="slide1" class="carousel-item relative w-full">
-            <div class="hero bg-base-200 min-h-fit">
+            <div class="hero bg-base-200 bg-[url('/src/book-images/banner2.jpg')] min-h-fit bg-opacity-70">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <img src="./src/book-images/book-img1.jpg" class="w-60 h-80 max-h-xs rounded-lg shadow-2xl" />
-                    <div>
+                    <div class="">
                         <h1 class="text-4xl font-bold text-center">Unlock a World of
                             Stories – Find Your Next Favorite Book at BookHouse</h1>
                         <button class="btn btn-sm btn-glass btn-outline">Buy Book</button>
@@ -18,7 +18,7 @@ export default function Banner() {
             </div>
         </div>
         <div id="slide2" class="carousel-item relative w-full">
-        <div class="hero bg-base-200 min-h-fit">
+        <div class="hero bg-base-200 bg-[url('/src/book-images/banner2.jpg')] min-h-fit bg-opacity-70">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <img src="./src/book-images/book-img2.jpg" class="w-60 h-80 rounded-lg shadow-2xl" />
                     <div>
@@ -34,7 +34,7 @@ export default function Banner() {
             </div>
         </div>
         <div id="slide3" class="carousel-item relative w-full">
-        <div class="hero bg-base-200 min-h-fit">
+        <div class="hero bg-base-200 bg-[url('/src/book-images/banner2.jpg')] min-h-fit bg-opacity-70">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <img src="./src/book-images/book-img3.jpg" class="w-60 h-80 rounded-lg shadow-2xl" />
                     <div>
@@ -50,7 +50,7 @@ export default function Banner() {
             </div>
         </div>
         <div id="slide4" class="carousel-item relative w-full">
-        <div class="hero bg-base-200 min-h-fit">
+        <div class="hero bg-base-200 bg-[url('/src/book-images/banner2.jpg')] min-h-fit bg-opacity-70">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <img src="./src/book-images/book-img4.png" class="w-60 h-80 rounded-lg shadow-2xl" />
                     <div>

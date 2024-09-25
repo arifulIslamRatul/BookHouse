@@ -32,8 +32,8 @@ export default function Navbar() {
         </div>
 
         <div class="navbar-end">
-        <button class="btn btn-outline btn-sm btn-success">Buy Book</button> &nbsp; &nbsp;
-        <button class="btn btn-outline btn-sm btn-success">Sign In</button>
+        <button class="btn btn-sm btn-glass btn-outline">Buy Book</button> &nbsp; &nbsp;
+        <button class="btn btn-sm btn-glass btn-outline">Sign In</button>
         </div>
       </div>
     </header>
