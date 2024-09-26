@@ -5,7 +5,7 @@ export default function Banner() {
             <div class="hero bg-base-200 bg-[url('/src/book-images/banner2.jpg')] min-h-fit bg-opacity-70">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <img src="./src/book-images/book-img1.jpg" class="w-60 h-80 max-h-xs rounded-lg shadow-2xl" />
-                    <div class="">
+                    <div class="container mx-auto">
                         <h1 class="text-4xl font-bold text-center">Unlock a World of
                             Stories – Find Your Next Favorite Book at BookHouse</h1>
                         <button class="btn btn-sm btn-glass btn-outline">Buy Book</button>
