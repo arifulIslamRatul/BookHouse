@@ -3,6 +3,7 @@ import Banner from "../assets/components/Banner"
 import Navbar from "../assets/components/Navbar"
 import BookData from "../assets/components/BookData";
 import  {useNavigation, Outlet } from "react-router-dom";
+import "../../src/index.css"
 
 const Homepage=()=>{
   const navigation = useNavigation();

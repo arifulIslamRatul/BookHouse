@@ -1,6 +1,6 @@
-
+import { Link } from "react-router-dom";
 const Book=({book})=> {
-    const {image, bookName, author, category, rating}=book;
+    const {bookId, image, bookName, author, category, rating}=book;
 
   return (
     <>
@@ -18,7 +18,7 @@ const Book=({book})=> {
                    <p>Rating: {rating}</p>
                    <p>Category: {category}</p>
                    <div className="card-actions">
-                       <button className="btn btn-sm btn-glass btn-outline">Book Details</button>
+                      <Link to={`/book/${bookId}`}> <button className="btn btn-sm btn-glass btn-outline">Book Details</button></Link>
                    </div>
             </div>
         </div></>

@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 export default function Navbar() {
   return (
@@ -11,8 +11,8 @@ export default function Navbar() {
             </svg>
           </div>
           <ul tabindex="0" className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-            <li><a>Home</a></li>
-            <li><a id="menuItem">About</a></li>
+            <Link to="/"><li>Home</li></Link>
+            <Link to="/about"><li>About</li></Link>
             <li><a id="menuItem2">Blog</a></li>
             <li><a id="menuItem3">FAQ</a></li>
           </ul>
