@@ -1,8 +1,9 @@
 {
-  "homepage": "https://arifulIslamRatul.github.io/BookHouse",
+  
   "name": "assignment3",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://arifulIslamRatul.github.io/BookHouse/",
   "type": "module",
   "scripts": {
     "dev": "vite",
