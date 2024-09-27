@@ -1,13 +1,19 @@
-import Banner from "../assets/components/Banner"
-import Navbar from "../assets/components/navbar"
-import BookData from "../assets/components/BookData"
 
-export default function Homepage() {
-  return (
+import Banner from "../assets/components/Banner"
+import Navbar from "../assets/components/Navbar"
+import BookData from "../assets/components/BookData";
+import  {useNavigation, Outlet } from "react-router-dom";
+
+const Homepage=()=>{
+  const navigation = useNavigation();
+  return(
     <div>
-        <Navbar/>
-        <Banner/>
-        <BookData/>
+        <Navbar></Navbar>
+        <Banner></Banner>
+        <BookData></BookData>
+        {navigation.state === "loading" ? <p>Loading...</p> : <Outlet></Outlet>}
     </div>
-  )
+  );
 };
+
+export default Homepage;
